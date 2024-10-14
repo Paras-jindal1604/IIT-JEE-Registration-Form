@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IIT-JEE Registration Form</title>
+</head>
+<body>
+    
+   
+    <form action="url_server">
+
+        <fieldset>
+            <legend>IIT-JEE Registration Form</legend>
+
+
+        <label for="name">Full Name:</label>
+        <input type="text" name="fname" id="name" placeholder="Enter your full name" required/>
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="abc@gmail.com" required/>
+        <br><br>
+
+        <label for="number">Phone:</label>
+        <input type="tel" name="mobile" id="number" placeholder="Enter your mobile number" required/>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="Enter your password" required/>
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="Gender" id="Male" value="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female">
+        <label for="Female">Female</label>
+        <br><br>
+
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" min="2001-01-01" max="2005-12-31" id="dob" >
+        <br><br>
+
+        <label for="school">School Name:</label>
+        <input type="text" id="school" name="school" placeholder="Enter your school" required />
+        <br><br>
+
+        <label for="board">Board:</label>
+        <select id="board" name="board">
+            <option value="" disabled selected>Select your board</option>
+            <option value="CBSE">CBSE</option>
+            <option value="ICSE">ICSE</option>
+            <option value="UP">UP</option>
+        </select>
+        <br><br>
+
+        <label for="year">Year of Passing:</label>
+        <input type="number" id="year" name="year" min="2021" max="2025" />
+        <br><br>
+
+        <label for="exam">Exam Center:</label>
+        <select id="exam" name="examcenter">
+            <option value="" disabled selected>Select your exam location</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Noida">Noida</option>
+            <option value="Dehradun">Dehradun</option>
+            <option value="Meerut">Meerut</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Register</button>
+
+
+    </fieldset>
+    </form>
+    
+
+
+</body>
+</html>
+
+
+
